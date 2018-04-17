@@ -1,0 +1,16 @@
+Sample output:
+INPUT: /**/ /*/* */ */
+INPUT: /*/*/****This**********/*/ */
+INPUT: /**************/
+INPUT: /*************************
+//
+INPUT: i = 333; ******************/ */
+*
+/
+INPUT: iiii = 3@33;
+ID: iiii
+symbol =
+
+NUM: 3
+Error:@
+Num 33

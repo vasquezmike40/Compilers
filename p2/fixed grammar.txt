@@ -1,0 +1,53 @@
+A	->	B
+B	->	C B'
+B'	->	C B'	|	ϵ
+C 	->	F id C'
+C'	->	;	|	[ num ] ;	|	( G ) H
+F 	->	int	|	void	|	float
+G 	->	int id J' I'	|	void G'	|	float id J' I'
+G'	->	id J' I'	|	ϵ
+H 	->	{ K L }
+I' 	->	, J I'	|	ϵ
+J 	->	F id J
+J'	->	[ ] |	ϵ
+K 	->	K'
+K'	->	F id K''	|	ϵ
+K''	->	; K'	|	[ num ] ; K'
+L 	->	L'
+L'	->	M L'	|	ϵ
+M 	->	N	|	H	|	O	|	P	|	Q
+N 	->	R ;	|	;
+O 	->	if ( R ) M O'
+O'	->	else M	|	ϵ
+P 	->	WHILE ( R ) M
+Q 	->	RETURN Q'
+Q'	->	;	|	R;
+R 	-> 	id R''	|	U S'
+R' 	-> 	= R	|	W' U' S'
+R''	-> 	T' R'	|	( Ᾱ ) W' U' S'
+S'	-> 	V S''	|	ϵ
+S''	-> 	U	| 	id S'''
+S'''-> 	( Ᾱ )W'U'	|	T' W' U'
+T	-> 	id T'
+T'	-> 	[ R ]	|	ϵ
+V	-> 	<=	|	<	|	>	|	>=	|	==	|	!=
+U 	-> 	W U'
+U'	-> 	Ͼ U''	|	ϵ
+U''	-> 	T W U'	|	W U'
+W 	-> 	Y W'
+W' 	-> 	X W''	|	ϵ
+W''	-> 	Y W'	|	id ( Ᾱ ) W'
+Ͼ 	-> 	+ 	| 	-
+X 	-> 	* 	| 	/
+Y 	-> 	( R )	|	num
+Ᾱ 	-> 	Ḇ	|	ϵ
+Ḇ	->	R Ḇ'
+Ḇ'	-> 	, R Ḇ'	|	ϵ
+
+
+1=Ᾱ
+2=Ḇ
+3=Ͼ
+
+
+

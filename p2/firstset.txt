@@ -1,0 +1,58 @@
+A:		int 	void	float																	DONE
+B: 		int 	void	float																	DONE
+B':		int		void	float	ϵ																DONE
+C:		int		void	float																	DONE
+C':	 	;		[		(																		DONE
+F: 		int 	void	float																	DONE
+G: 		int		void	float																	DONE
+G': 	id	 	ϵ																				DONE
+H:		{																						DONE
+I': 	, 		ϵ																				DONE
+J: 		int		void	float																	DONE
+J': 	[		ϵ																				DONE
+K: 	 	int		void	float	ϵ																DONE
+K': 	int		void	float	ϵ																DONE
+K'': 	;		[																				DONE
+L:		;		id		(		num		if		return		while	{	ϵ						DONE
+L': 	;		id		(		num 	if		return 		while 	{	ϵ						DONE
+M: 		; 		id		(		num		if		return		while	{							DONE
+N: 		;		id		(		num																DONE
+O: 		if																						DONE
+O': 	else	ϵ																				DONE
+P: 		while																					DONE
+Q: 		return																					DONE
+Q': 	id 		(		num		;																DONE
+R: 		id		(		num																		DONE
+R': 	=		*		/		+		-		<=			<		>		>=		==		!=		ϵ	DONE
+R'': 	(		[		=		*		/		+			-		(		[		ϵ			DONE
+S': 	<=		<		>		>=		==		=			!=		ϵ							DONE
+S'': 	id		(		num																		DONE
+S''': 	(		[		*		/		+		-			ϵ									DONE
+T: 		id																						DONE
+T': 	[		ϵ																				DONE
+V: 		<=		<		>		>=		=		==		!=										DONE
+U: 		(		num																				DONE
+U': 	+		-		ϵ																		DONE
+U'': 	(		num		id																		DONE
+W: 		(		num																				DONE
+W': 	*		/		ϵ																		DONE
+W'': 	(		num		id																		DONE
+Ͼ: 		+		-																				DONE
+X: 		*		/																				DONE
+Y: 		(		num																				DONE
+Ᾱ:		(		num		id		ϵ																DONE
+Ḇ: 		(		num		id 																		DONE
+Ḇ': 	, 		ϵ																				DONE
+
+
+
+
+
+
+
+
+
+
+
+
+Ᾱ

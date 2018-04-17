@@ -1,0 +1,45 @@
+A:		$
+B: 		$
+B':		$
+C:		int | void | float | $
+C':		int | void | float | $
+F: 		id
+G: 		) 
+G': 	)
+H:		)
+I': 	int	|	void	|	float	|	$	|	;	|	id	|	(	|	num	|	{	|	if	|	while	|	return	|	else	|	}
+J: 		,
+J': 	, 	|	)
+K: 		;	|	id	|	(	|	num	|	{	|	if	|	while	|	return	|	}
+K': 	;	|	id	|	(	|	num	|	{	|	if	|	while	|	return	|	}
+K'': 	;	|	id	|	(	|	num	|	{	|	if	|	while	|	return	|	}
+L:		}
+L': 	}
+M: 		; 	| 	id 	| 	( 	| 	num | 	{ 	| 	if 	| 	while 	| 	return 	| 	else 	| 	}
+N: 		; 	| 	id 	| 	( 	| 	num | 	{ 	| 	if 	| 	while 	| 	return 	| 	else 	| 	}
+O: 		; 	| 	id 	| 	( 	| 	num | 	{ 	| 	if 	| 	while 	| 	return 	| 	else 	| 	}
+O': 	; 	| 	id 	| 	( 	| 	num | 	{ 	| 	if 	| 	while 	| 	return 	| 	else 	| 	}
+P: 		; 	| 	id 	| 	( 	| 	num | 	{ 	| 	if 	| 	while 	| 	return 	| 	else 	| 	}
+Q: 		; 	| 	id 	| 	( 	| 	num | 	{ 	| 	if 	| 	while 	| 	return 	| 	else 	| 	}
+Q': 	; 	| 	id 	| 	( 	| 	num | 	{ 	| 	if 	| 	while 	| 	return 	| 	else 	| 	}
+R: 		; 	| 	) 	| 	] 	| 	,
+R': 	; 	| 	) 	| 	] 	| 	,
+R'': 	; 	| 	) 	| 	] 	| 	,
+S': 	; 	| 	) 	| 	] 	| 	,
+S'': 	; 	| 	) 	| 	] 	| 	,
+S''': 	; 	| 	) 	| 	] 	| 	,
+T: 		( 	| 	num
+T': 	= 	| 	* 	| 	/ 	| 	+ 	| 	- 	| 	< 	| 	> 	| 	<=	|	>=	|	==	|	!=	|	;	|	)	|	]	|	,	|	(	|	num
+V: 		num	|	id
+U: 		> 	| 	< 	| 	>= 	| 	<= 	| 	== 	| 	!= 	| 	; 	| 	) 	| 	] 	| 	,
+U': 	> 	| 	< 	| 	>= 	| 	<= 	| 	== 	| 	!= 	| 	; 	| 	) 	| 	] 	| 	,
+U'': 	> 	| 	< 	| 	>= 	| 	<= 	| 	== 	| 	!= 	| 	; 	| 	) 	| 	] 	| 	,
+W: 		+	|	-	|	> 	| 	< 	| 	>= 	| 	<= 	| 	== 	| 	!= 	| 	; 	| 	) 	| 	] 	| 	,
+W': 	+	|	-	|	> 	| 	< 	| 	>= 	| 	<= 	| 	== 	| 	!= 	| 	; 	| 	) 	| 	] 	| 	,
+W'': 	+	|	-	|	> 	| 	< 	| 	>= 	| 	<= 	| 	== 	| 	!= 	| 	; 	| 	) 	| 	] 	| 	,
+Ͼ: 		id 	| 	( 	| 	num
+X: 		id 	| 	( 	| 	num
+Y: 		=	|	*	|	/ 	| 	+ 	| 	- 	| 	< 	| 	> 	| 	<= 	| 	>= 	| 	== 	| 	!= 	| 	; 	| 	)
+Ᾱ:		)
+Ḇ: 		)
+Ḇ': 	)

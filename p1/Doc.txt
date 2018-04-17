@@ -1,0 +1,20 @@
+Your project is to use the grammar definition in the appendix 
+of your text to guide the construction of a lexical analyzer.
+My code specifically has multiple Arraylists created for the 
+different token types. Then as the code runs it reads the input
+file and compares to the array lists to see if it is an accepted 
+keyword, delimiter, etc. The program also reads numbers  and determines 
+whether or not it a float or int. All the while an error is thrown out
+when when not matching any of the Arraylists. For the Identifiers token 
+it reads letter by letter until reaching something other than a character
+and then prints out the id.
+
+The Entirety of the project consist of:
+GRADING:
+2 points for p1 script (including making it executable)
+2 points for makefile
+2 points for typescript
+3 points for documentation
+16 points for execution
+----------------
+25 total points on project
