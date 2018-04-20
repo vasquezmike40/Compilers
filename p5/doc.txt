@@ -1,0 +1,28 @@
+Project 5  Due 4/19/18 Thursday 11:59 PM (nearly midnight)
+
+ The purpose of this assignment was to create the intermediate code generator for sql commands. While completing this Assignment that had known that yacc/bison or that lex/flex existed i could have implemented it to create projects 2-4. I used the grammar given by Eggen and Implemented it myself.
+
+ Composition of p5.l file
+ Deceleration
+ %%
+ RegularExpressions
+ %%
+ LocalProcedures
+
+
+Composition of p5.y file
+Deceleration
+%%
+GrammarRules
+%%
+LocalProcedures
+
+
+GRADING:
+2 points for p5 executable or script - including making it executable
+2 points for makefile
+2 points for typescript
+3 points for documentation
+16 points for execution?
+----------------
+25 total points on project
